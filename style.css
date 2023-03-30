@@ -1,3 +1,107 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #FAFAFA;
+    ;
+}
+
+
+@media screen and (max-width:639px) {
+
+    .mainImg {
+        margin-top: 60px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .mainImg img {
+        height: 290px;
+        width: 350px;
+    }
+
+    .mainHeader {
+        font-size: 28px;
+        text-align: center;
+        font-weight: medium;
+    }
+
+    .mainHeader::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 2px;
+        padding-top: 10px;
+        border-bottom: 2px solid #407BFF;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .header {
+        padding: 0 20px;
+
+    }
+
+    .text {
+        font-size: 16px;
+        text-align: center;
+        color: #8B8B8B;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        padding: 10px 30px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        background-color: #407BFF;
+        border-radius: 50px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .second {
+        background-color: #8B8B8B;
+
+    }
+
+    .sectionHeader {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .offer {
+        display: flex;
+        gap: 30px;
+        margin: 10px 20px;
+        padding: 20px 20px;
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        border-radius: 10px;
+    }
+
+    .innerText {
+        color: #8B8B8B;
+        font-size: 13px;
+    }
+
+    section {
+        margin-top: 70px;
+    }
+
+    .offers {
+        margin-top: 30px;
+    }
+
 }
