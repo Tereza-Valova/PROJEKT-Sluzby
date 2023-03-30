@@ -8,19 +8,16 @@ body {
     background-color: #FAFAFA;
     ;
 }
-
-
-@media screen and (max-width:639px) {
-
     .mainImg {
         margin-top: 60px;
-        margin-left: 75px;
-        margin-right: 75px;
+
     }
 
     .mainImg img {
-        height: 290px;
-        width: 350px;
+      
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .mainHeader {
@@ -104,4 +101,41 @@ body {
         margin-top: 30px;
     }
 
+
+
+@media screen and (min-width: 640px) {
+
+    .buttons {
+        flex-direction: row;
+        gap:30px;
+    }
+
+    .offers {
+        display: flex;
+    }
+    
+    .offer {
+       display: block;
+       padding: 0;
+    }
+
+   .offer .sectionImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+
+
+    }
+
+    .offer .innerText {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .text {
+        padding: 30px 65px;
+    }
+
+   
 }
